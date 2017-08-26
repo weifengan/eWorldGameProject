@@ -1,4 +1,6 @@
-﻿using ExitGames.Logging;
+﻿using EWorldServer.db;
+using EWorldServer.net;
+using ExitGames.Logging;
 
 namespace EWorldServer
 {
@@ -24,7 +26,8 @@ namespace EWorldServer
         {
             mLog = logger;
             AppRootFolder = appURL;
-
+            HandlerManager.GetInstance().Init();
+            DBManager.GetInstance().Init();
             Global.Info("【SYS】游戏服务器启动运行中......");
         }
 

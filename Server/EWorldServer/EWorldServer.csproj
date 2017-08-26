@@ -11,6 +11,7 @@
     <AssemblyName>EWorldServer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -41,7 +42,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\ExitGamesLibs.dll</HintPath>
     </Reference>
-    <Reference Include="Iesi.Collections">
+    <Reference Include="FluentNHibernate, Version=2.0.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>libs\FluentNHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\Iesi.Collections.dll</HintPath>
     </Reference>
     <Reference Include="LitJson, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -52,7 +58,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\log4net.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate">
+    <Reference Include="NHibernate, Version=4.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>libs\NHibernate.dll</HintPath>
     </Reference>
     <Reference Include="Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e, processorArchitecture=MSIL">
@@ -61,7 +68,7 @@
     </Reference>
     <Reference Include="PhotonHostRuntimeInterfaces, Version=3.58.0.0, Culture=neutral, PublicKeyToken=6cb1467adaa73020, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
       <HintPath>libs\PhotonHostRuntimeInterfaces.dll</HintPath>
     </Reference>
     <Reference Include="System" />
@@ -74,27 +81,50 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="db\action\AccountAction.cs" />
     <Compile Include="db\DBManager.cs" />
+    <Compile Include="db\mapping\AccountMapping.cs" />
+    <Compile Include="db\model\Account.cs" />
     <Compile Include="EWorldServerApp.cs" />
     <Compile Include="Global.cs" />
     <Compile Include="net\c2s\S2CMessage.cs" />
     <Compile Include="net\c2s\C2SFetchAllServer.cs" />
     <Compile Include="net\c2s\C2SFetchCurrentServer.cs" />
     <Compile Include="net\Handler.cs" />
-    <Compile Include="net\MessageManager.cs" />
+    <Compile Include="net\HandlerManager.cs" />
     <Compile Include="net\UserClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="libs\ExitGames.Logging.Log4Net.dll" />
-    <Content Include="libs\ExitGamesLibs.dll" />
-    <Content Include="libs\LitJson.dll" />
+    <Content Include="libs\ExitGames.Logging.Log4Net.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\ExitGamesLibs.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\FluentNHibernate.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\Iesi.Collections.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\LitJson.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="libs\log4net.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="libs\Photon.SocketServer.dll" />
-    <Content Include="libs\PhotonHostRuntimeInterfaces.dll" />
+    <Content Include="libs\NHibernate.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\Photon.SocketServer.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="libs\PhotonHostRuntimeInterfaces.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
