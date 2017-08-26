@@ -1,0 +1,390 @@
+19380: 08:21:24.134 - ---
+19380: 08:21:24.134 - Service: "Photon Socket Server" starting
+19380: 08:21:24.134 - Config File: D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\bin_Win64\PhotonServer.config
+19380: 08:21:24.136 - Will produce at most: 10 crash dumps
+19380: 08:21:24.136 - Action: run as exe
+19380: 08:21:24.136 - Server Starting...
+19380: 08:21:24.136 -    Tick count: 153128406 (wraps in: 47.938 days)
+19380: 08:21:24.136 - Tick count 64: 153128406
+19380: 08:21:24.136 - Photon Version: 4.0.28.2962
+19380: 08:21:24.136 - PID: 2580
+19380: 08:21:24.136 - Config File: D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\bin_Win64\PhotonServer.config
+19380: 08:21:24.137 - Will NOT log unimportant exceptions
+19380: 08:21:24.138 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+19380: 08:21:24.138 - Shutdown timeout enabled: 30000ms
+19380: 08:21:24.138 - Starting I/O thread pool with 2 threads
+19380: 08:21:24.138 - Using Standard allocator
+19380: 08:21:24.138 - Max message size: 512000
+19380: 08:21:24.138 - Starting business logic thread pool with the following settings
+19380: 08:21:24.138 - InitialThreads: 4 threads
+19380: 08:21:24.138 - MinThreads: 4 threads
+19380: 08:21:24.138 - Thread pool is fixed size
+19380: 08:21:24.138 - Starting ENet thread pool with the following settings
+19380: 08:21:24.138 - InitialThreads: 2 threads
+19380: 08:21:24.138 - MinThreads: 2 threads
+19380: 08:21:24.138 - Thread pool is fixed size
+19380: 08:21:24.138 - OnlyDispatchTimers: False
+19380: 08:21:24.138 - S2S: flow control: Max pending writes: 50
+19380: 08:21:24.138 - S2S: flow control: Max queued buffers: 200
+19380: 08:21:24.138 - S2S: flow control: Max pending writes MUX: 500
+19380: 08:21:24.138 - S2S: flow control: Max queued buffers MUX: 2000
+19380: 08:21:24.138 - S2S: MaxInboundMessageSize: 512000
+19380: 08:21:24.138 - S2S: MaxOutboundMessageSize: 512000
+19380: 08:21:24.138 - S2S: No inactivity timeout
+19380: 08:21:24.141 - WebSocket S2S: MaxInboundMessageSize: 512000
+19380: 08:21:24.141 - WebSocket S2S: MaxOutboundMessageSize: 512000
+19380: 08:21:24.141 - WebSocket S2S: No inactivity timeout
+19380: 08:21:24.141 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+19380: 08:21:24.141 - Per peer bandwidth limit
+19380: 08:21:24.141 - Transmit Rate Limit: 256 KB/Sec
+19380: 08:21:24.141 - Limit period: 200ms
+19380: 08:21:24.141 - Limit per period: 52428 bytes
+19380: 08:21:24.141 - Max queued data for transmission per peer: 512000 bytes
+19380: 08:21:24.141 - Minimum retransmit timeout: 200
+19380: 08:21:24.141 - No Maximum retransmit timeout
+19380: 08:21:24.141 - Minimum ENet timeout: 5000ms
+19380: 08:21:24.141 - Maximum ENet timeout: 30000ms
+19380: 08:21:24.141 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+19380: 08:21:24.141 - No RTT ACK adjustment timeout
+19380: 08:21:24.141 - Outbound ENet: MaxInboundMessageSize: 512000
+19380: 08:21:24.141 - Outbound ENet: MaxOutboundMessageSize: 512000
+19380: 08:21:24.143 - GetRuntime - About to load CLR - versions available:
+19380: 08:21:24.143 - v2.0.50727
+19380: 08:21:24.143 - v4.0.30319
+19380: 08:21:24.143 - Configuration requests: "v2.0.50727"
+19380: 08:21:24.143 - About to load version: "v2.0.50727"
+19380: 08:21:24.147 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+19380: 08:21:24.147 - CLRBaseDirectory set to "D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy"
+19380: 08:21:24.147 - Optimising event broadcast for 20 or more peers
+19380: 08:21:24.147 - Start: About to load CLR - versions available:
+19380: 08:21:24.147 - v2.0.50727
+19380: 08:21:24.147 - v4.0.30319
+19380: 08:21:24.147 - No preference in configuration file, will load latest.
+19380: 08:21:24.147 - About to load version: "v4.0.30319"
+19380: 08:21:24.148 - Loaded version: "v4.0.30319"
+19380: 08:21:24.282 - Photon host runtime loaded
+19380: 08:21:26.003 - License is valid.
+19380: 08:21:26.003 - Licensed for 100 concurrent connections.
+19380: 08:21:26.003 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+19380: 08:21:26.003 - ENet: Per peer bandwidth limit
+19380: 08:21:26.003 - ENet: Transmit Rate Limit: 256 KB/Sec
+19380: 08:21:26.003 - ENet: Limit period: 200ms
+19380: 08:21:26.003 - ENet: Limit per period: 52428 bytes
+19380: 08:21:26.003 - ENet: Max queued data for transmission per peer: 512000 bytes
+19380: 08:21:26.003 - ENet: Minimum retransmit timeout: 200
+19380: 08:21:26.003 - No Maximum retransmit timeout
+19380: 08:21:26.003 - ENet: Minimum timeout: 5000ms
+19380: 08:21:26.003 - ENet: Maximum timeout: 30000ms
+19380: 08:21:26.003 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+19380: 08:21:26.003 - No RTT ACK adjustment timeout
+19380: 08:21:26.003 - About to load application: EWorldServer from EWorldServer
+19380: 08:21:26.003 - Auto restart is enabled for application, existing connections will be terminated during restart
+19380: 08:21:26.003 - Application will restart 1000ms after the last change detected
+19380: 08:21:26.003 - Application will restart if files matching the following are changed: "dll;config"
+19380: 08:21:26.003 - Application will NOT restart if files matching the following are changed: "log4net.config"
+19380: 08:21:26.070 - Taking reference on default app domain
+19380: 08:21:26.113 - Application: "EWorldServer" started in app domain: 2
+19380: 08:21:26.113 - Adding TCP listener on: 0.0.0.0: 4531 with a listen backlog of: 150
+19380: 08:21:26.113 - TCP inactivity timeout: 10000ms
+19380: 08:21:26.113 - TCP disconnect timeout: 120000ms
+19380: 08:21:26.113 - MaxInboundMessageSize: 512000
+19380: 08:21:26.113 - MaxOutboundMessageSize: 512000
+19380: 08:21:26.113 - Forcing all applications ids to: "EWorldServer"
+19380: 08:21:26.114 - Serving policy file requests from: "D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\Policy\assets\socket-policy.xml"
+19380: 08:21:26.114 - Adding TCP listener on: 0.0.0.0: 4520 with a listen backlog of: 150
+19380: 08:21:26.114 - TCP inactivity timeout: 5000ms
+19380: 08:21:26.114 - TCP disconnect timeout: 120000ms
+19380: 08:21:26.114 - MaxInboundMessageSize: 512000
+19380: 08:21:26.114 - MaxOutboundMessageSize: 512000
+19380: 08:21:26.114 - Forcing all applications ids to: "EWorldServer"
+19380: 08:21:26.114 - MaxInboundMessageSize: 512000
+19380: 08:21:26.114 - MaxOutboundMessageSize: 512000
+19380: 08:21:26.114 - UDP address specified as: "0.0.0.0" adding listener to each available IPv4 address
+19380: 08:21:26.114 - Adding UDP listener on: 192.168.6.137: 9339 with a listen backlog of: 500
+19380: 08:21:26.114 - Adding UDP listener on: 169.254.80.80: 9339 with a listen backlog of: 500
+19380: 08:21:26.114 - Adding UDP listener on: 127.0.0.1: 9339 with a listen backlog of: 500
+19380: 08:21:26.114 - Adding WebSocket TCP listener on: 0.0.0.0: 9091 with a listen backlog of: 150
+19380: 08:21:26.114 - Nagle disabled
+19380: 08:21:26.114 - TCP inactivity timeout: 10000ms
+19380: 08:21:26.114 - MaxInboundMessageSize: 512000
+19380: 08:21:26.114 - MaxOutboundMessageSize: 512000
+19380: 08:21:26.114 - Forcing all applications ids to: "EWorldServer"
+19380: 08:21:26.114 - Will accept ANY sub-protocols from the client
+19380: 08:21:26.114 - No automatic WebSocket ping
+19380: 08:21:26.114 - Adding Policy File listener on: 0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\Policy\assets\socket-policy.xml"
+19380: 08:21:26.114 - TCP inactivity timeout: 1000ms
+19380: 08:21:26.114 - Adding Policy File listener on: 0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\Policy\assets\socket-policy-silverlight.xml"
+19380: 08:21:26.114 - TCP inactivity timeout: 1000ms
+19380: 08:21:26.134 - Service is running...
+20116: 08:39:28.502 - Restarting application: "EWorldServer" due to file changes
+20116: 08:39:28.502 - Application: "EWorldServer" restart request (abort existing connections)
+20116: 08:39:28.557 - Taking reference on default app domain
+20116: 08:39:28.585 - Application: "EWorldServer" started in app domain: 3
+20116: 08:39:28.682 - RequestApplicationStop: 2
+20116: 08:39:28.685 - Application: "EWorldServer" stopped in app domain: 2 (abort existing connections)
+20116: 08:39:28.685 - Application: "EWorldServer" restart complete.
+5308: 08:39:28.685 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+5052: 08:39:28.693 - Unloading Domain: ApplicationName = 'EWorldServer', DomainId='2'
+5308: 08:39:28.693 - CManagedHost::OnDomainUnload() - 2
+19380: 08:39:38.715 - Service is stopped...
+19380: 08:39:38.715 - Server shutting down...
+19380: 08:39:38.715 - Shutdown monitoring enabled, 30000ms before process abort
+19380: 08:39:38.715 - Notifying CLR applications of shutdown...
+19380: 08:39:38.715 - RequestApplicationStop: 3
+19380: 08:39:38.720 - RequestStop: defalt app domain
+19380: 08:39:38.721 - Shutting down WebSocket Outbound Connection Manager...
+19380: 08:39:38.721 - Shutting down TCP Outbound Connection Manager...
+19380: 08:39:38.721 - Shutting down ENet Outbound Connection Manager...
+19380: 08:39:38.721 - Disconnecting all outbound peers...
+19380: 08:39:38.721 - Shutting down ENet host...
+19380: 08:39:38.721 - Disconnecting all peers...
+19380: 08:39:38.721 - Shutting down socket servers...
+19380: 08:39:38.721 - Shutting down ENet thread pool...
+19380: 08:39:38.721 - Shutting down TCP inactivity timers...
+19380: 08:39:38.721 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:843
+19380: 08:39:38.721 - OnShutdownCompleted: NativePolicy:0.0.0.0:843
+19380: 08:39:38.721 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:943
+19380: 08:39:38.721 - OnShutdownCompleted: NativePolicy:0.0.0.0:943
+19380: 08:39:38.721 - WaitingForShutdownToComplete: TCP:0.0.0.0:4520
+19380: 08:39:38.721 - OnShutdownCompleted: TCP:0.0.0.0:4520
+19380: 08:39:38.721 - WaitingForShutdownToComplete: TCP:0.0.0.0:4531
+19380: 08:39:38.721 - OnShutdownCompleted: TCP:0.0.0.0:4531
+19380: 08:39:38.721 - WaitingForShutdownToComplete: UDP:127.0.0.1:9339
+19380: 08:39:38.721 - OnShutdownCompleted: UDP:127.0.0.1:9339
+19380: 08:39:38.721 - WaitingForShutdownToComplete: UDP:169.254.80.80:9339
+19380: 08:39:38.721 - OnShutdownCompleted: UDP:169.254.80.80:9339
+19380: 08:39:38.722 - WaitingForShutdownToComplete: UDP:192.168.6.137:9339
+19380: 08:39:38.722 - OnShutdownCompleted: UDP:192.168.6.137:9339
+19380: 08:39:38.722 - WaitingForShutdownToComplete: WebSocket:0.0.0.0:9091
+19380: 08:39:38.722 - OnShutdownCompleted: WebSocket:0.0.0.0:9091
+19380: 08:39:38.722 - Shutting down CLR applications...
+19380: 08:39:38.724 - Shutting down business logic thread pool...
+5308: 08:39:38.724 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+19380: 08:39:38.724 - Shutting down I/O thread pool...
+19380: 08:39:38.724 - Destroying servers
+19380: 08:39:38.724 - Destroying WebSocket Outbound Connection Manager
+19380: 08:39:38.724 - Destroying TCP Outbound Connection Manager
+19380: 08:39:38.724 - Destroying TCP inactivity timer
+19380: 08:39:38.724 - Destroying ENet timer wheel
+19380: 08:39:38.724 - Destroying ENet host
+19380: 08:39:38.724 - Destroying ENet outbound host
+19380: 08:39:38.724 - Destroying HTTP inactivity timer
+19380: 08:39:38.724 - Destroying HTTP host
+19380: 08:39:38.724 - Destroying HTTP Chunk host
+19380: 08:39:38.724 - Flushing ENET buffer allocator...
+19380: 08:39:38.726 - Flushing TCP buffer handle allocator...
+19380: 08:39:38.726 - Flushing stream socket allocator...
+19380: 08:39:38.726 - Flushing inbound datagram socket allocator...
+19380: 08:39:38.728 - Flushing outbound datagram socket allocator...
+19380: 08:39:38.728 - Destroying CLR dispatcher
+19380: 08:39:38.728 - Destroying CLR applications
+19380: 08:39:38.728 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+5052: 08:39:38.733 - Unloading Domain: ApplicationName = 'EWorldServer', DomainId='3'
+5308: 08:39:38.733 - CManagedHost::OnDomainUnload() - 3
+19380: 08:39:38.734 - ~CCLRApplicationCollection() - Done. All objects released
+19380: 08:39:38.734 - ~CManagedHost() - Release default app domain
+19380: 08:39:38.734 - CManagedHost::OnDomainUnload() - 1
+19380: 08:39:38.734 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+19380: 08:39:38.734 - ~CManagedHost
+19380: 08:39:38.734 - Destroying ENet thread pool
+19380: 08:39:38.734 - Destroying Business logic thread pool
+19380: 08:39:38.734 - Destroying I/O thread pool
+19380: 08:39:38.734 - Destroying ENet buffer allocator
+19380: 08:39:38.734 - Destroying TCP buffer allocator
+19380: 08:39:38.734 - Destroying TCP socket allocator
+19380: 08:39:38.734 - Destroying ENet inbound socket allocator
+19380: 08:39:38.734 - Destroying ENet outbound socket allocator
+19380: 08:39:38.734 - Destroying shared datagram flow control data
+19380: 08:39:38.734 - Shutdown complete...
+19380: 08:39:38.734 - Service shutting down
+19380: 08:39:38.737 - Service shut down complete
+19468: 08:39:45.766 - ---
+19468: 08:39:45.766 - Service: "Photon Socket Server" starting
+19468: 08:39:45.767 - Config File: D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\bin_Win64\PhotonServer.config
+19468: 08:39:45.768 - Will produce at most: 10 crash dumps
+19468: 08:39:45.768 - Action: run as exe
+19468: 08:39:45.768 - Server Starting...
+19468: 08:39:45.768 -    Tick count: 154230046 (wraps in: 47.9252 days)
+19468: 08:39:45.768 - Tick count 64: 154230046
+19468: 08:39:45.768 - Photon Version: 4.0.28.2962
+19468: 08:39:45.768 - PID: 17248
+19468: 08:39:45.769 - Config File: D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\bin_Win64\PhotonServer.config
+19468: 08:39:45.769 - Will NOT log unimportant exceptions
+19468: 08:39:45.770 - Not using performance counters as they are not currently installed. Run the service with /InstallCounters to install them.
+19468: 08:39:45.770 - Shutdown timeout enabled: 30000ms
+19468: 08:39:45.770 - Starting I/O thread pool with 2 threads
+19468: 08:39:45.770 - Using Standard allocator
+19468: 08:39:45.771 - Max message size: 512000
+19468: 08:39:45.771 - Starting business logic thread pool with the following settings
+19468: 08:39:45.771 - InitialThreads: 4 threads
+19468: 08:39:45.771 - MinThreads: 4 threads
+19468: 08:39:45.771 - Thread pool is fixed size
+19468: 08:39:45.771 - Starting ENet thread pool with the following settings
+19468: 08:39:45.771 - InitialThreads: 2 threads
+19468: 08:39:45.771 - MinThreads: 2 threads
+19468: 08:39:45.771 - Thread pool is fixed size
+19468: 08:39:45.771 - OnlyDispatchTimers: False
+19468: 08:39:45.771 - S2S: flow control: Max pending writes: 50
+19468: 08:39:45.771 - S2S: flow control: Max queued buffers: 200
+19468: 08:39:45.771 - S2S: flow control: Max pending writes MUX: 500
+19468: 08:39:45.771 - S2S: flow control: Max queued buffers MUX: 2000
+19468: 08:39:45.771 - S2S: MaxInboundMessageSize: 512000
+19468: 08:39:45.771 - S2S: MaxOutboundMessageSize: 512000
+19468: 08:39:45.771 - S2S: No inactivity timeout
+19468: 08:39:45.773 - WebSocket S2S: MaxInboundMessageSize: 512000
+19468: 08:39:45.773 - WebSocket S2S: MaxOutboundMessageSize: 512000
+19468: 08:39:45.773 - WebSocket S2S: No inactivity timeout
+19468: 08:39:45.773 - Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+19468: 08:39:45.773 - Per peer bandwidth limit
+19468: 08:39:45.773 - Transmit Rate Limit: 256 KB/Sec
+19468: 08:39:45.773 - Limit period: 200ms
+19468: 08:39:45.773 - Limit per period: 52428 bytes
+19468: 08:39:45.773 - Max queued data for transmission per peer: 512000 bytes
+19468: 08:39:45.773 - Minimum retransmit timeout: 200
+19468: 08:39:45.773 - No Maximum retransmit timeout
+19468: 08:39:45.773 - Minimum ENet timeout: 5000ms
+19468: 08:39:45.773 - Maximum ENet timeout: 30000ms
+19468: 08:39:45.773 - Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+19468: 08:39:45.773 - No RTT ACK adjustment timeout
+19468: 08:39:45.773 - Outbound ENet: MaxInboundMessageSize: 512000
+19468: 08:39:45.773 - Outbound ENet: MaxOutboundMessageSize: 512000
+19468: 08:39:45.775 - GetRuntime - About to load CLR - versions available:
+19468: 08:39:45.775 - v2.0.50727
+19468: 08:39:45.775 - v4.0.30319
+19468: 08:39:45.775 - Configuration requests: "v2.0.50727"
+19468: 08:39:45.775 - About to load version: "v2.0.50727"
+19468: 08:39:45.778 - About to load runtime: PhotonHostRuntime.PhotonDomainManager from PhotonHostRuntime, Culture=neutral, PublicKeyToken=02C301B61B060C4D
+19468: 08:39:45.778 - CLRBaseDirectory set to "D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy"
+19468: 08:39:45.778 - Optimising event broadcast for 20 or more peers
+19468: 08:39:45.779 - Start: About to load CLR - versions available:
+19468: 08:39:45.779 - v2.0.50727
+19468: 08:39:45.779 - v4.0.30319
+19468: 08:39:45.779 - No preference in configuration file, will load latest.
+19468: 08:39:45.779 - About to load version: "v4.0.30319"
+19468: 08:39:45.780 - Loaded version: "v4.0.30319"
+19468: 08:39:45.907 - Photon host runtime loaded
+19468: 08:39:47.584 - License is valid.
+19468: 08:39:47.584 - Licensed for 100 concurrent connections.
+19468: 08:39:47.584 - ENet: Max Reliable Data In Transit (awaiting ACKs) per peer : 51200 bytes
+19468: 08:39:47.584 - ENet: Per peer bandwidth limit
+19468: 08:39:47.584 - ENet: Transmit Rate Limit: 256 KB/Sec
+19468: 08:39:47.584 - ENet: Limit period: 200ms
+19468: 08:39:47.584 - ENet: Limit per period: 52428 bytes
+19468: 08:39:47.584 - ENet: Max queued data for transmission per peer: 512000 bytes
+19468: 08:39:47.584 - ENet: Minimum retransmit timeout: 200
+19468: 08:39:47.584 - No Maximum retransmit timeout
+19468: 08:39:47.584 - ENet: Minimum timeout: 5000ms
+19468: 08:39:47.584 - ENet: Maximum timeout: 30000ms
+19468: 08:39:47.584 - ENet: Max Inbound Reliable Data Queued (awaiting resends of earlier sequence numbers) per peer : 163840 bytes
+19468: 08:39:47.584 - No RTT ACK adjustment timeout
+19468: 08:39:47.584 - About to load application: EWorldServer from EWorldServer
+19468: 08:39:47.584 - Auto restart is enabled for application, existing connections will be terminated during restart
+19468: 08:39:47.584 - Application will restart 1000ms after the last change detected
+19468: 08:39:47.584 - Application will restart if files matching the following are changed: "dll;config"
+19468: 08:39:47.584 - Application will NOT restart if files matching the following are changed: "log4net.config"
+19468: 08:39:47.636 - Taking reference on default app domain
+19468: 08:39:47.661 - Application: "EWorldServer" started in app domain: 2
+19468: 08:39:47.661 - Adding TCP listener on: 0.0.0.0: 4531 with a listen backlog of: 150
+19468: 08:39:47.661 - TCP inactivity timeout: 10000ms
+19468: 08:39:47.661 - TCP disconnect timeout: 120000ms
+19468: 08:39:47.661 - MaxInboundMessageSize: 512000
+19468: 08:39:47.661 - MaxOutboundMessageSize: 512000
+19468: 08:39:47.661 - Forcing all applications ids to: "EWorldServer"
+19468: 08:39:47.661 - Serving policy file requests from: "D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\Policy\assets\socket-policy.xml"
+19468: 08:39:47.661 - Adding TCP listener on: 0.0.0.0: 4520 with a listen backlog of: 150
+19468: 08:39:47.661 - TCP inactivity timeout: 5000ms
+19468: 08:39:47.661 - TCP disconnect timeout: 120000ms
+19468: 08:39:47.661 - MaxInboundMessageSize: 512000
+19468: 08:39:47.661 - MaxOutboundMessageSize: 512000
+19468: 08:39:47.661 - Forcing all applications ids to: "EWorldServer"
+19468: 08:39:47.661 - MaxInboundMessageSize: 512000
+19468: 08:39:47.661 - MaxOutboundMessageSize: 512000
+19468: 08:39:47.661 - UDP address specified as: "0.0.0.0" adding listener to each available IPv4 address
+19468: 08:39:47.662 - Adding UDP listener on: 192.168.6.137: 9339 with a listen backlog of: 500
+19468: 08:39:47.662 - Adding UDP listener on: 169.254.80.80: 9339 with a listen backlog of: 500
+19468: 08:39:47.662 - Adding UDP listener on: 127.0.0.1: 9339 with a listen backlog of: 500
+19468: 08:39:47.662 - Adding WebSocket TCP listener on: 0.0.0.0: 9091 with a listen backlog of: 150
+19468: 08:39:47.662 - Nagle disabled
+19468: 08:39:47.662 - TCP inactivity timeout: 10000ms
+19468: 08:39:47.662 - MaxInboundMessageSize: 512000
+19468: 08:39:47.662 - MaxOutboundMessageSize: 512000
+19468: 08:39:47.662 - Forcing all applications ids to: "EWorldServer"
+19468: 08:39:47.662 - Will accept ANY sub-protocols from the client
+19468: 08:39:47.662 - No automatic WebSocket ping
+19468: 08:39:47.662 - Adding Policy File listener on: 0.0.0.0: 843 with a listen backlog of: 150 and serving Policy File: "D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\Policy\assets\socket-policy.xml"
+19468: 08:39:47.662 - TCP inactivity timeout: 1000ms
+19468: 08:39:47.662 - Adding Policy File listener on: 0.0.0.0: 943 with a listen backlog of: 150 and serving Policy File: "D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\Policy\assets\socket-policy-silverlight.xml"
+19468: 08:39:47.662 - TCP inactivity timeout: 1000ms
+19468: 08:39:47.683 - Service is running...
+19468: 08:40:01.074 - Service is stopped...
+19468: 08:40:01.075 - Server shutting down...
+19468: 08:40:01.075 - Shutdown monitoring enabled, 30000ms before process abort
+19468: 08:40:01.075 - Notifying CLR applications of shutdown...
+19468: 08:40:01.075 - RequestApplicationStop: 2
+19468: 08:40:01.079 - RequestStop: defalt app domain
+19468: 08:40:01.080 - Shutting down WebSocket Outbound Connection Manager...
+19468: 08:40:01.081 - Shutting down TCP Outbound Connection Manager...
+19468: 08:40:01.081 - Shutting down ENet Outbound Connection Manager...
+19468: 08:40:01.081 - Disconnecting all outbound peers...
+19468: 08:40:01.081 - Shutting down ENet host...
+19468: 08:40:01.081 - Disconnecting all peers...
+19468: 08:40:01.081 - Shutting down socket servers...
+19468: 08:40:01.081 - Shutting down ENet thread pool...
+19468: 08:40:01.081 - Shutting down TCP inactivity timers...
+19468: 08:40:01.081 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:843
+19468: 08:40:01.081 - OnShutdownCompleted: NativePolicy:0.0.0.0:843
+19468: 08:40:01.081 - WaitingForShutdownToComplete: NativePolicy:0.0.0.0:943
+19468: 08:40:01.081 - OnShutdownCompleted: NativePolicy:0.0.0.0:943
+19468: 08:40:01.081 - WaitingForShutdownToComplete: TCP:0.0.0.0:4520
+19468: 08:40:01.081 - OnShutdownCompleted: TCP:0.0.0.0:4520
+19468: 08:40:01.081 - WaitingForShutdownToComplete: TCP:0.0.0.0:4531
+19468: 08:40:01.081 - OnShutdownCompleted: TCP:0.0.0.0:4531
+19468: 08:40:01.081 - WaitingForShutdownToComplete: UDP:127.0.0.1:9339
+19468: 08:40:01.081 - OnShutdownCompleted: UDP:127.0.0.1:9339
+19468: 08:40:01.081 - WaitingForShutdownToComplete: UDP:169.254.80.80:9339
+19468: 08:40:01.081 - OnShutdownCompleted: UDP:169.254.80.80:9339
+19468: 08:40:01.081 - WaitingForShutdownToComplete: UDP:192.168.6.137:9339
+19468: 08:40:01.081 - OnShutdownCompleted: UDP:192.168.6.137:9339
+19468: 08:40:01.081 - WaitingForShutdownToComplete: WebSocket:0.0.0.0:9091
+19468: 08:40:01.081 - OnShutdownCompleted: WebSocket:0.0.0.0:9091
+19468: 08:40:01.081 - Shutting down CLR applications...
+19468: 08:40:01.083 - Shutting down business logic thread pool...
+15592: 08:40:01.083 - CManagedHost::OnDefaultAction() - OPR_AppDomainUnload - eUnloadAppDomain
+19468: 08:40:01.083 - Shutting down I/O thread pool...
+19468: 08:40:01.083 - Destroying servers
+19468: 08:40:01.083 - Destroying WebSocket Outbound Connection Manager
+19468: 08:40:01.083 - Destroying TCP Outbound Connection Manager
+19468: 08:40:01.083 - Destroying TCP inactivity timer
+19468: 08:40:01.083 - Destroying ENet timer wheel
+19468: 08:40:01.083 - Destroying ENet host
+19468: 08:40:01.083 - Destroying ENet outbound host
+19468: 08:40:01.083 - Destroying HTTP inactivity timer
+19468: 08:40:01.083 - Destroying HTTP host
+19468: 08:40:01.083 - Destroying HTTP Chunk host
+19468: 08:40:01.083 - Flushing ENET buffer allocator...
+19468: 08:40:01.084 - Flushing TCP buffer handle allocator...
+19468: 08:40:01.084 - Flushing stream socket allocator...
+19468: 08:40:01.084 - Flushing inbound datagram socket allocator...
+19468: 08:40:01.085 - Flushing outbound datagram socket allocator...
+19468: 08:40:01.085 - Destroying CLR dispatcher
+19468: 08:40:01.085 - Destroying CLR applications
+19468: 08:40:01.085 - ~CCLRApplicationCollection() - Waiting up to 10 seconds for the CLR to release all of our objects
+19588: 08:40:01.092 - Unloading Domain: ApplicationName = 'EWorldServer', DomainId='2'
+15592: 08:40:01.092 - CManagedHost::OnDomainUnload() - 2
+19468: 08:40:01.125 - ~CCLRApplicationCollection() - Done. All objects released
+19468: 08:40:01.125 - ~CManagedHost() - Release default app domain
+19468: 08:40:01.125 - CManagedHost::OnDomainUnload() - 1
+19468: 08:40:01.125 - ~CManagedHost() - Waiting up to 10 seconds for CLR shutdown...
+19468: 08:40:01.126 - ~CManagedHost
+19468: 08:40:01.126 - Destroying ENet thread pool
+19468: 08:40:01.126 - Destroying Business logic thread pool
+19468: 08:40:01.126 - Destroying I/O thread pool
+19468: 08:40:01.126 - Destroying ENet buffer allocator
+19468: 08:40:01.126 - Destroying TCP buffer allocator
+19468: 08:40:01.126 - Destroying TCP socket allocator
+19468: 08:40:01.126 - Destroying ENet inbound socket allocator
+19468: 08:40:01.126 - Destroying ENet outbound socket allocator
+19468: 08:40:01.126 - Destroying shared datagram flow control data
+19468: 08:40:01.126 - Shutdown complete...
+19468: 08:40:01.126 - Service shutting down
+19468: 08:40:01.128 - Service shut down complete

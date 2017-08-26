@@ -1,0 +1,8 @@
+D:\NTS教学平台\GitHub\eworldgame\Server\EWorldServer\bin\Debug\EWorldServer.dll
+D:\NTS教学平台\GitHub\eworldgame\Server\EWorldServer\bin\Debug\EWorldServer.pdb
+D:\NTS教学平台\GitHub\eworldgame\Server\EWorldServer\obj\Debug\EWorldServer.dll
+D:\NTS教学平台\GitHub\eworldgame\Server\EWorldServer\obj\Debug\EWorldServer.pdb
+D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin\EWorldServer.dll
+D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin\EWorldServer.pdb
+D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin\libs\log4net.dll
+D:\NTS教学平台\GitHub\eworldgame\Server\EWorldServer\obj\Debug\EWorldServer.csprojResolveAssemblyReference.cache

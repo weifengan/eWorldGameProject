@@ -1,0 +1,6 @@
+{
+    "host": "127.0.0.1",
+    "dbname": "db_eworld",
+    "dbuser": "admin",
+    "dbpwd": "admin"
+}

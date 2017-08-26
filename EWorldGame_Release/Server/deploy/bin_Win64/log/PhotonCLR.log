@@ -1,0 +1,66 @@
+2017-08-26 08:21:24,266 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2017-08-26 08:21:24,281 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2017-08-26 08:21:24,283 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2017-08-26 08:21:24,825 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2017-08-26 08:21:26,010 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'EWorldServer' , assemblyName = 'EWorldServer'
+2017-08-26 08:21:26,011 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy'
+2017-08-26 08:21:26,011 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin;bin_Win64;Shared;'
+2017-08-26 08:21:26,012 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2017-08-26 08:21:26,012 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin\Cache'
+2017-08-26 08:21:26,068 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer'
+2017-08-26 08:21:26,069 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin'
+2017-08-26 08:21:26,069 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy'
+2017-08-26 08:21:26,070 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\bin_Win64\log'
+2017-08-26 08:21:26,095 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: EWorldServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/EWorldServer.DLL
+2017-08-26 08:21:26,096 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2017-08-26 08:21:26,103 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/Photon.SocketServer.DLL
+2017-08-26 08:21:26,109 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/ExitGamesLibs.DLL
+2017-08-26 08:21:26,113 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'EWorldServer', assemblyName = 'EWorldServer', typeName = 'EWorldServer.EWorldServerApp'
+2017-08-26 08:21:26,135 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'EWorldServer', DomainId='2' -- calling Application.Setup
+2017-08-26 08:21:26,141 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/ExitGames.Logging.Log4Net.DLL
+2017-08-26 08:21:26,251 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2017-08-26 08:39:28,502 [16] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'EWorldServer' , assemblyName = 'EWorldServer'
+2017-08-26 08:39:28,503 [16] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy'
+2017-08-26 08:39:28,503 [16] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin;bin_Win64;Shared;'
+2017-08-26 08:39:28,504 [16] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2017-08-26 08:39:28,504 [16] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin\Cache'
+2017-08-26 08:39:28,555 [16] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer'
+2017-08-26 08:39:28,556 [16] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin'
+2017-08-26 08:39:28,556 [16] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy'
+2017-08-26 08:39:28,556 [16] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\bin_Win64\log'
+2017-08-26 08:39:28,567 [16] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: EWorldServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/EWorldServer.DLL
+2017-08-26 08:39:28,568 [16] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2017-08-26 08:39:28,574 [16] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/Photon.SocketServer.DLL
+2017-08-26 08:39:28,581 [16] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/ExitGamesLibs.DLL
+2017-08-26 08:39:28,584 [16] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'EWorldServer', assemblyName = 'EWorldServer', typeName = 'EWorldServer.EWorldServerApp'
+2017-08-26 08:39:28,586 [16] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'EWorldServer', DomainId='3' -- calling Application.Setup
+2017-08-26 08:39:28,591 [16] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/ExitGames.Logging.Log4Net.DLL
+2017-08-26 08:39:28,683 [16] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'EWorldServer', DomainId='2' -- calling Application.OnStopRequested()
+2017-08-26 08:39:28,684 [16] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'EWorldServer', DomainId='2' -- calling Application.TearDown()
+2017-08-26 08:39:38,716 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'EWorldServer', DomainId='3' -- calling Application.OnStopRequested()
+2017-08-26 08:39:38,720 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2017-08-26 08:39:38,722 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'EWorldServer', DomainId='3' -- calling Application.TearDown()
+2017-08-26 08:39:45,891 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Initialize: ApplicationName = 'DefaultDomain', DomainID = '1'
+2017-08-26 08:39:45,907 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AppDomains with unhandled exceptions are usually not unloaded and restarted.
+2017-08-26 08:39:45,909 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Getting license information:
+2017-08-26 08:39:46,443 [ 1] INFO  PhotonHostRuntime.PhotonLicensing - LICENSE: Type:Standard; Plan:Free; Expiration: never; floating license: yes; max connections: 100; valid IPs: any; status:Licensed
+2017-08-26 08:39:47,589 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - CreateAppDomain: name = 'EWorldServer' , assemblyName = 'EWorldServer'
+2017-08-26 08:39:47,590 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationBase = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy'
+2017-08-26 08:39:47,591 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   PrivateBinPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin;bin_Win64;Shared;'
+2017-08-26 08:39:47,591 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ConfigurationFile = ''
+2017-08-26 08:39:47,591 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   CachePath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin\Cache'
+2017-08-26 08:39:47,634 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer'
+2017-08-26 08:39:47,635 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   BinaryPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer\bin'
+2017-08-26 08:39:47,635 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   ApplicationRootPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy'
+2017-08-26 08:39:47,636 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager -   UnmanagedLogPath = 'D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\bin_Win64\log'
+2017-08-26 08:39:47,643 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: EWorldServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/EWorldServer.DLL
+2017-08-26 08:39:47,644 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Photon SDK:4.0.28.11245
+2017-08-26 08:39:47,650 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: Photon.SocketServer, Version=4.0.28.11245, Culture=neutral, PublicKeyToken=48c2fa3b6988090e from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/Photon.SocketServer.DLL
+2017-08-26 08:39:47,656 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGamesLibs, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/ExitGamesLibs.DLL
+2017-08-26 08:39:47,660 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Starting: name = 'EWorldServer', assemblyName = 'EWorldServer', typeName = 'EWorldServer.EWorldServerApp'
+2017-08-26 08:39:47,684 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'EWorldServer', DomainId='2' -- calling Application.Setup
+2017-08-26 08:39:47,691 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - AssemblyLoadEvent: ExitGames.Logging.Log4Net, Version=1.0.4.0, Culture=neutral, PublicKeyToken=eac0edd9746a4aa0 from file:///D:/NTS教学平台/GitHub/eworldgame/EWorldGame_Release/Server/deploy/EWorldServer/bin/ExitGames.Logging.Log4Net.DLL
+2017-08-26 08:39:47,788 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - PhotonRunning: ApplicationName = 'DefaultDomain', DomainId='1'
+2017-08-26 08:40:01,076 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'EWorldServer', DomainId='2' -- calling Application.OnStopRequested()
+2017-08-26 08:40:01,080 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - RequestStop: ApplicationName = 'DefaultDomain', DomainId='1'
+2017-08-26 08:40:01,081 [ 1] INFO  PhotonHostRuntime.PhotonDomainManager - Stop: ApplicationName = 'EWorldServer', DomainId='2' -- calling Application.TearDown()

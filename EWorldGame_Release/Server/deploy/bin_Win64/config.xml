@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+   <server id="1">
+	   <title>天府情缘</title>
+       <host>192.168.1.35:4531</host>
+   <server>
+   
+   <server id="2">
+	   <title>香格里拉</title>
+       <host>192.168.1.35:4531</host>
+   <server>
+   
+   <server id="3">
+	   <title>决战天下</title>
+       <host>192.168.1.35:4531</host>
+   <server>
+   
+   <server id="4">
+	   <title>沧海一笑</title>
+       <host>192.168.1.35:4531</host>
+   <server>
+   
+   <server id="5">
+	   <title>桃园结义</title>
+       <host>192.168.1.35:4531</host>
+   <server>
+</root>

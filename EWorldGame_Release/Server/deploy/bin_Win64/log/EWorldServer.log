@@ -1,0 +1,15 @@
+﻿2017-08-26 08:21:26,226 [1] INFO  EWorldServer.EWorldServerApp - 服务器启动成功
+2017-08-26 08:21:26,241 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=EWorldServer; AppPath=D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer, Type=EWorldServer.EWorldServerApp 
+2017-08-26 08:39:28,661 [16] INFO  EWorldServer.EWorldServerApp - 【SYS】游戏服务器启动运行中......
+2017-08-26 08:39:28,673 [16] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=EWorldServer; AppPath=D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer, Type=EWorldServer.EWorldServerApp 
+2017-08-26 08:39:28,683 [16] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=EWorldServer
+2017-08-26 08:39:28,684 [16] INFO  EWorldServer.EWorldServerApp - 服务器关闭
+2017-08-26 08:39:28,685 [16] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=EWorldServer
+2017-08-26 08:39:38,719 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=EWorldServer
+2017-08-26 08:39:38,723 [1] INFO  EWorldServer.EWorldServerApp - 【SYS】服务器已经关闭.....
+2017-08-26 08:39:38,723 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=EWorldServer
+2017-08-26 08:39:47,765 [1] INFO  EWorldServer.EWorldServerApp - 【SYS】游戏服务器启动运行中......
+2017-08-26 08:39:47,777 [1] INFO  Photon.SocketServer.ApplicationBase - Application start: AppId=EWorldServer; AppPath=D:\NTS教学平台\GitHub\eworldgame\EWorldGame_Release\Server\deploy\EWorldServer, Type=EWorldServer.EWorldServerApp 
+2017-08-26 08:40:01,078 [1] INFO  Photon.SocketServer.ApplicationBase - Application is stopping: AppId=EWorldServer
+2017-08-26 08:40:01,082 [1] INFO  EWorldServer.EWorldServerApp - 【SYS】服务器已经关闭.....
+2017-08-26 08:40:01,082 [1] INFO  Photon.SocketServer.ApplicationBase - Application stop: AppId=EWorldServer
