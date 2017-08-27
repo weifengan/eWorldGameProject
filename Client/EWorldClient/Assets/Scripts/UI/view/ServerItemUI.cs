@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class ServerItemUI : BaseUI {
 
-    public delegate void SvrSelectHandler(ServerItemVo data);
+    public delegate void SvrSelectHandler(BaseUI me, ServerItemVo data);
     public event SvrSelectHandler OnSelectHandler = null;
 
 
@@ -30,7 +30,7 @@ public class ServerItemUI : BaseUI {
     {
         if (OnSelectHandler != null)
         {
-            OnSelectHandler(data);
+            OnSelectHandler(this,data);
         }
     }
 

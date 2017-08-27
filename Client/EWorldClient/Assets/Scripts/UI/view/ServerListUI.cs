@@ -1,5 +1,6 @@
 ﻿using Common;
 using EWordProject.Logic;
+using Pathfinding.Serialization.JsonFx;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -34,21 +35,21 @@ public class ServerListUI : BaseUI {
     public void LoadServerData()
     {
 
-        HandlerManager.GetInstance().FindHandler((byte)Module.ServerList, (byte)ServerListOperation.FetchAllServer).OnParseHandler += ServerListUI_OnParseHandler;
+        HandlerManager.GetInstance().FindHandler((byte)Module.ServerList, (byte)ServerListOperation.FetchAllServer).OnParseHandler += ServerListUI_OnParseHandler1;
         //向服务器要数据
-        C2SMessage msg = new C2SMessage(Enums.MoudleCode.ServerList, Enums.OperationCode.FetchAllSeverList);
+        C2SMessage msg = new C2SMessage((byte)Module.ServerList, (byte)ServerListOperation.FetchAllServer);
         NetManager.GetInstance().SendMessage(msg);
 
     }
 
-    private void ServerListUI_OnParseHandler(NetManager net, Enums.MoudleCode moudleCode, Enums.OperationCode opCode, ExitGames.Client.Photon.OperationResponse response)
+    private void ServerListUI_OnParseHandler1(byte moduleCode, byte opCode, ExitGames.Client.Photon.OperationResponse response)
     {
-
+        HandlerManager.GetInstance().Remove((byte)Module.ServerList, (byte)ServerListOperation.FetchAllServer);
         //获取服务器返回的信息
         string json = response.Parameters[(byte)1].ToString();
 
         //转为json
-        ServerListVo list = JsonUtility.FromJson<ServerListVo>(json);
+        ServerListVo list = JsonReader.Deserialize<ServerListVo>(json);
 
 
 
@@ -81,12 +82,13 @@ public class ServerListUI : BaseUI {
     /// 服务器被选中处理
     /// </summary>
     /// <param name="data"></param>
-    private void MSvr_OnSelectHandler(ServerItemVo data)
+    private void MSvr_OnSelectHandler(BaseUI me,ServerItemVo data)
     {
         if (OnSelectHandler != null)
         {
-            OnSelectHandler(data);
+            OnSelectHandler(this,data);
             this.gameObject.SetActive(false);
         }
     }
+
 }

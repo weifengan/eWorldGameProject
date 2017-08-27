@@ -23,6 +23,7 @@ namespace EWorldServer
         protected override PeerBase CreatePeer(InitRequest initRequest)
         {
             UserClient uk = new UserClient(initRequest);
+            Global.Info("有新客户端连接" + initRequest.RemoteIP);
             return uk;
         }
 

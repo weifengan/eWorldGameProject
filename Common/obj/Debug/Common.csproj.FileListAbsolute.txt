@@ -8,3 +8,8 @@ E:\GitHub\eWorldGameProject\Common\obj\Debug\Common.dll
 E:\GitHub\eWorldGameProject\Common\obj\Debug\Common.pdb
 E:\GitHub\eWorldGameProject\Client\EWorldClient\Assets\Plugins\Common.dll
 E:\GitHub\eWorldGameProject\Client\EWorldClient\Assets\Plugins\Common.pdb
+H:\CNWorkspace\github_weifengan\eWorldGameProject\Client\EWorldClient\Assets\Plugins\Common.dll
+H:\CNWorkspace\github_weifengan\eWorldGameProject\Client\EWorldClient\Assets\Plugins\Common.pdb
+H:\CNWorkspace\github_weifengan\eWorldGameProject\Common\obj\Debug\Common.dll
+H:\CNWorkspace\github_weifengan\eWorldGameProject\Common\obj\Debug\Common.pdb
+H:\CNWorkspace\github_weifengan\eWorldGameProject\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache

@@ -61,19 +61,17 @@ public class NetManager :MonoBehaviour,IPhotonPeerListener{
     {
 
         //获取模块ID
-        Enums.MoudleCode moudle = (Enums.MoudleCode)operationResponse.OperationCode;
-        Enums.OperationCode operation = (Enums.OperationCode)operationResponse.Parameters[(byte)80];
+        byte  moudle = (byte)operationResponse.OperationCode;
+        byte operation = (byte)operationResponse.Parameters[(byte)80];
 
         Handler handler = HandlerManager.GetInstance().FindHandler((byte)moudle, (byte)operation);
         if (handler != null)
         {
-            handler.Parse(this, moudle, operation, operationResponse);
+            handler.Parse(moudle, operation, operationResponse);
         }else
         {
-            Global.Info("收到未知消息");
+            Global.Info("收到未知消息"+moudle+","+operation);
         }
-        Global.Info(moudle, operation);  
-
     }
 
     public void OnStatusChanged(StatusCode statusCode)
@@ -82,6 +80,9 @@ public class NetManager :MonoBehaviour,IPhotonPeerListener{
         {
             case StatusCode.Connect:
                 Global.Info("成功连接到服务器!"+peer.ServerAddress);
+                break;
+            case StatusCode.DisconnectByServer:
+                Global.Info("被服务器端强制断开连接");
                 break;
             case StatusCode.Disconnect:
                 Global.Info("你已经掉线了");

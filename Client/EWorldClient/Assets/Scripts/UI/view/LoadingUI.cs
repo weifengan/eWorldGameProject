@@ -20,8 +20,6 @@ public class LoadingUI : BaseUI {
     protected override void OnStart()
     {
         base.OnStart();
-        print(args.Length);
-
         StartCoroutine(doLoading());
     }
 
@@ -38,7 +36,7 @@ public class LoadingUI : BaseUI {
         barImg.fillAmount = 1;
         txtPro.text = "100%";
 
-        UIManager.GetInstance().SwitchScene("StartUI");
+        UIManager.GetInstance().SwitchScene(this.args[0].ToString());
 
     }
 }

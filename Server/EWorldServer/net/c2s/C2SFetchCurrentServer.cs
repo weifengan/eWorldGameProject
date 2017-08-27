@@ -9,9 +9,9 @@ using LitJson;
 
 namespace EWorldServer.net.c2s
 {
-    class C2SFetchCurrentServer : IHandler
+    class C2SFetchCurrentServer : Handler
     {
-        public void Parse(UserClient user, int moduleCode, int operationCode, OperationRequest operationRequest, SendParameters sendParameters)
+        public override void Parse(UserClient user, byte moduleCode, byte operationCode, OperationRequest operationRequest, SendParameters sendParameters)
         {
 
             ServerItemVo currentServer = new ServerItemVo();

@@ -10,9 +10,9 @@ using System.IO;
 
 namespace EWorldServer.net.c2s
 {
-    class C2SFetchAllServer : IHandler
+    class C2SFetchAllServer : Handler
     {
-        public void Parse(UserClient user, int moduleCode, int operationCode, OperationRequest operationRequest, SendParameters sendParameters)
+        public override void Parse(UserClient user, byte moduleCode, byte operationCode, OperationRequest operationRequest, SendParameters sendParameters)
         {
             //构建消息
             S2CMessage msg = new S2CMessage((byte)Module.ServerList, (byte)ServerListOperation.FetchAllServer);

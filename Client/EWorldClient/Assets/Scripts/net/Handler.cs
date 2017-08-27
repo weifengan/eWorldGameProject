@@ -19,7 +19,7 @@ using System.Text;
 public class Handler
 {
 
-    public delegate void OnDataHandler(NetManager net, Enums.MoudleCode moudleCode, Enums.OperationCode opCode,OperationResponse response);
+    public delegate void OnDataHandler(byte moduleCode, byte  opCode,OperationResponse response);
     public event OnDataHandler OnParseHandler = null;
     /// <summary>
     /// 消息处理类
@@ -29,11 +29,11 @@ public class Handler
     /// <param name="opCode">操作码</param>
     /// <param name="operationRequest">操作请求</param>
     /// <param name="sendParameters">发送参数</param>
-    public virtual void Parse(NetManager net, Enums.MoudleCode moudleCode, Enums.OperationCode opCode, OperationResponse response)
+    public virtual void Parse(byte moduleCode, byte opCode, OperationResponse response)
     {
         if (OnParseHandler != null)
         {
-            OnParseHandler(net, moudleCode, opCode, response);
+            OnParseHandler(moduleCode, opCode, response);
         }
     }
 }

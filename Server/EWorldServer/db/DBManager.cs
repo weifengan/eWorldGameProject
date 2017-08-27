@@ -70,12 +70,12 @@ namespace EWorldServer.db
             {
                 //读取配置文件
                 string json = File.ReadAllText(Global.AppRootFolder + "\\dbconfig.json");
-                mConfig = JsonMapper.ToObject<DBConfigVo>(json);
-                Global.Info(string.Format("【OK】初始化数据库管理类 {0} 成功!", DBManager.mConfig.dbname));
+                mConfig =JsonMapper.ToObject<DBConfigVo>(json);
+                Global.Info(string.Format("【OK】DBManager初始化成功({0})", DBManager.mConfig.dbname));
             }
             catch (Exception e)
             {
-                Global.Info("【Error】数据库初始化失败!" + e.Message);
+                Global.Info("【Error】DBManager初始化失败!" + e.Message);
             }
 
         }

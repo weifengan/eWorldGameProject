@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EWorldServer.net
 {
-    interface IHandler
+    class Handler
     {
         /// <summary>
         /// 消息处理类
@@ -17,6 +17,8 @@ namespace EWorldServer.net
         /// <param name="opCode">操作码</param>
         /// <param name="operationRequest">操作请求</param>
         /// <param name="sendParameters">发送参数</param>
-        void Parse(UserClient user, int moduleCode, int operationCode, OperationRequest operationRequest, SendParameters sendParameters);
+        public virtual void Parse(UserClient user, byte moduleCode, byte operationCode, OperationRequest operationRequest, SendParameters sendParameters)
+        {
+        }
     }
 }

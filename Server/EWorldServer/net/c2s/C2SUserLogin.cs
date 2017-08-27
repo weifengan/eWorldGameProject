@@ -7,6 +7,7 @@ using Photon.SocketServer;
 using EWorldServer.db.action;
 using EWorldServer.db.model;
 using Common;
+using LitJson;
 
 
 
@@ -22,9 +23,9 @@ using Common;
 
 namespace EWorldServer.net.c2s
 {
-    class C2SUserLogin : IHandler
+    class C2SUserLogin : Handler
     {
-        public void Parse(UserClient user, int moduleCode, int operationCode, OperationRequest operationRequest, SendParameters sendParameters)
+        public override void Parse(UserClient user, byte moduleCode, byte operationCode, OperationRequest operationRequest, SendParameters sendParameters)
         {
             //获取用户名和密码
             string username = operationRequest.Parameters[(byte)1].ToString();
@@ -38,15 +39,22 @@ namespace EWorldServer.net.c2s
             //构建消息
             S2CMessage msg = new S2CMessage((byte)Module.Login, (byte)LoginOperation.UserLogin);
             Global.Info("向客户端发送信息" + msg.moudleCode + "," + msg.operationCode);
+
+            LoginResultVo lro = new LoginResultVo();
+
+
             //登录成功
             if (ac != null)
             {
-                msg.Add((byte)1, "{\"result\":1,\"info\":\"登录成功\"}");
+                lro.result = 1;
+                lro.info = "登录成功";
             }
             else
             {
-                msg.Add((byte)1, "{\"result\":0,\"info\":\"用户名或密码错误!\"}");
+                lro.result = 0;
+                lro.info = "用户名或密码错误!";
             }
+            msg.Add((byte)1, JsonMapper.ToJson(lro));
 
             //发送反馈
             OperationResponse response = new OperationResponse((byte)moduleCode, msg);

@@ -7,7 +7,7 @@ namespace EWorldServer.net
     class HandlerManager
     {
         //消息字典
-        private Dictionary<byte, Dictionary<byte, IHandler>> mDic;
+        private Dictionary<byte, Dictionary<byte, Handler>> mDic;
 
         #region 单例模式实现
         private static HandlerManager _instance = null;
@@ -29,7 +29,7 @@ namespace EWorldServer.net
 
         public void Init()
         {
-            mDic = new Dictionary<byte, Dictionary<byte, IHandler>>();
+            mDic = new Dictionary<byte, Dictionary<byte, Handler>>();
 
             //注册消息
             Add((byte)Module.ServerList, (byte)ServerListOperation.FetchCurrentServer, new C2SFetchCurrentServer());
@@ -45,12 +45,12 @@ namespace EWorldServer.net
         /// <param name="opCode">操作码</param>
         /// <param name="handler">消息处理对象</param>
         /// <returns></returns>
-        public bool Add(byte moudleCode, byte opCode, IHandler handler)
+        public bool Add(byte moudleCode, byte opCode, Handler handler)
         {
-            Dictionary<byte, IHandler> oplist;
+            Dictionary<byte, Handler> oplist;
             if (!mDic.ContainsKey(moudleCode))
             {
-                oplist = new Dictionary<byte, IHandler>();
+                oplist = new Dictionary<byte, Handler>();
                 oplist.Add(opCode, handler);
                 mDic.Add(moudleCode, oplist);
                 return true;
@@ -77,7 +77,7 @@ namespace EWorldServer.net
 
         public bool Remove(byte moudleCode, byte opCode)
         {
-            Dictionary<byte, IHandler> oplist;
+            Dictionary<byte, Handler> oplist;
             if (mDic.ContainsKey(moudleCode))
             {
                 oplist = mDic[moudleCode];
@@ -97,9 +97,9 @@ namespace EWorldServer.net
         /// <param name="moudleCode"></param>
         /// <param name="opCode"></param>
         /// <returns></returns>
-        public IHandler FindHandler(byte moudleCode, byte opCode)
+        public Handler FindHandler(byte moudleCode, byte opCode)
         {
-            Dictionary<byte, IHandler> oplist;
+            Dictionary<byte, Handler> oplist;
             if (mDic.ContainsKey(moudleCode))
             {
                 oplist = mDic[moudleCode];
@@ -110,6 +110,21 @@ namespace EWorldServer.net
                 return null;
             }
             return null;
+        }
+
+
+
+        public void DisplayAllHandlers()
+        {
+            foreach (byte item in mDic.Keys)
+            {
+                Dictionary<byte, Handler> list = mDic[item];
+                Global.Info("---------------"+(Module)item+"-----------------");
+                foreach (var k in list.Keys)
+                {
+                    Global.Info(k + "=" + list[k]+"\n");
+                }
+            }
         }
 
     }

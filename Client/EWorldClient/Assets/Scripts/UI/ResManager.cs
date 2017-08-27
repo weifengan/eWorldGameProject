@@ -14,7 +14,7 @@ using System;
 public class ResManager : MonoBehaviour {
 
     private static ResManager _instance = null;
-    private Hashtable resList = new Hashtable();
+
     public static ResManager GetInstance()
     {
         if (_instance == null)
@@ -50,7 +50,7 @@ public class ResManager : MonoBehaviour {
         }
         catch
         {
-            Debug.Log("为找到皮肤资源" + path);
+            Global.Info("未找到皮肤资源" + path);
             return null;
         }
     }

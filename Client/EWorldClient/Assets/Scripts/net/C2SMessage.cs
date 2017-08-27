@@ -3,20 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class C2SMessage:Dictionary<byte,object> {
-    public Enums.MoudleCode moudleCode;
-    public Enums.OperationCode operationCode;
+    public byte moudleCode;
+    public byte operationCode;
     
-    public C2SMessage(Enums.MoudleCode moudleCode,Enums.OperationCode operationCode):base()
+    public C2SMessage(byte moudleCode,byte operationCode):base()
     {
         this.moudleCode = moudleCode;
         this.operationCode = operationCode;
         //添加操作码
         this.Add(80, operationCode);
-    }
-
-    public void AddField(byte id,object value)
-    {
-        this.Add(id, value);
     }
 
     public override string ToString()

@@ -196,6 +196,55 @@ public class BaseUI : MonoBehaviour
     }
 
 
+    /// <summary>
+    /// 通过名字获取游戏对象
+    /// </summary>
+    /// <param name="name"></param>
+    /// <returns></returns>
+    public GameObject GetGameObject(string name)
+    {
+        RectTransform[] trans = this.transform.GetComponents<RectTransform>();
+
+        foreach(RectTransform rtf in trans)
+        {
+            if (rtf.name == name)
+            {
+                return rtf.gameObject;
+            }
+        }
+        return null;
+
+    }
+
+ /// <summary>
+ /// 获取特定游戏对象上的特定组件
+ /// </summary>
+ /// <typeparam name="T"></typeparam>
+ /// <param name="name"></param>
+ /// <returns></returns>
+    public T GetComponentByName<T>(string name) where T :MonoBehaviour
+    {
+        T[] trans = this.transform.GetComponentsInChildren<T>();
+
+        foreach (T rtf in trans)
+        {
+            if (rtf.name == name)
+            {
+                return rtf;
+            }
+        }
+        return default(T);
+
+    }
+
+
+    public virtual void Kill()
+    {
+
+
+    }
+
+
 
 
 

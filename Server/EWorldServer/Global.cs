@@ -28,6 +28,7 @@ namespace EWorldServer
             AppRootFolder = appURL;
             HandlerManager.GetInstance().Init();
             DBManager.GetInstance().Init();
+            HandlerManager.GetInstance().DisplayAllHandlers();
             Global.Info("【SYS】游戏服务器启动运行中......");
         }
 

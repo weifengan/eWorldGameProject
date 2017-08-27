@@ -54,7 +54,7 @@ public class Global : MonoBehaviour {
        
         UIManager.GetInstance().Init();
         ResManager.GetInstance().Init();
-        UIManager.GetInstance().SwitchScene("LoadingUI");
+        UIManager.GetInstance().SwitchScene("LoadingUI","LoginUI");
 
         NetManager.GetInstance().Init();
 

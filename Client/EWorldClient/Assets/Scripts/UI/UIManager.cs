@@ -95,4 +95,19 @@ public class UIManager : MonoBehaviour
         return tmp;
     }
 
+
+     public void Alert(string content,string title="系统消息")
+    {
+        AlertUI alert = GetNewUI<AlertUI>();
+        RectTransform rtf = alert.transform as RectTransform;
+        //设置UI容器大小
+        rtf.sizeDelta = new Vector2(Screen.width, Screen.height);
+        rtf.anchorMin = Vector2.zero;
+        rtf.anchorMax = Vector2.one;
+        rtf.offsetMin = new Vector2(0, 0);
+        rtf.offsetMax = new Vector2(0, 0);
+        alert.SetData(content, title);
+
+    }
+
 }

@@ -19,7 +19,18 @@ namespace Common
     [System.Serializable]
     public class ServerListVo
     {
-        public ServerItemVo[] servers;
+        public ServerItemVo[] servers { get; set; }
+
+        public override string ToString()
+        {
+            string info = "";
+            foreach(ServerItemVo vo in servers)
+            {
+                info += vo.id + " " + vo.title + " " + vo.host + " " + vo.status+"\n";
+            }
+
+            return info;
+        }
     }
 
     /// <summary>
@@ -32,6 +43,14 @@ namespace Common
         public string dbname;
         public string dbuser;
         public string dbpwd;
+    }
+
+
+    [System.Serializable]
+    public class LoginResultVo
+    {
+        public int result;
+        public string info;
     }
 
 }
