@@ -52,6 +52,7 @@ public class LoginUI : BaseUI {
                 break;
 
             case "btnReg":
+                UIManager.GetInstance().Confirm("真的没有账号，需要进行注册码?");
                 UIManager.GetInstance().Alert("请到官网去注册账号!");
                 break;
         }

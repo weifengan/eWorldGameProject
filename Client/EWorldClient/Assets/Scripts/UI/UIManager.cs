@@ -110,4 +110,20 @@ public class UIManager : MonoBehaviour
 
     }
 
+
+    public void Confirm(string content, string title = "系统消息确认",ConfirmUI.Complete handler=null)
+    {
+        ConfirmUI confirm = GetNewUI<ConfirmUI>();
+        RectTransform rtf = confirm.transform as RectTransform;
+        //设置UI容器大小
+        rtf.sizeDelta = new Vector2(Screen.width, Screen.height);
+        rtf.anchorMin = Vector2.zero;
+        rtf.anchorMax = Vector2.one;
+        rtf.offsetMin = new Vector2(0, 0);
+        rtf.offsetMax = new Vector2(0, 0);
+        confirm.SetData(content, title);
+        confirm.onClosedHandler += handler;
+
+    }
+
 }
