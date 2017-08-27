@@ -16,3 +16,21 @@
 6744: 02:22:25.175 - Will produce at most: 10 crash dumps
 6744: 02:22:25.175 - Service shutting down
 6744: 02:22:25.177 - Service shut down complete
+16372: 07:54:15.291 - ---
+16372: 07:54:15.291 - Service: "Photon Socket Server" starting
+16372: 07:54:15.291 - Config File: E:\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\bin_Win64\PhotonServer.config
+16372: 07:54:15.292 - Will produce at most: 10 crash dumps
+16372: 07:54:15.292 - Service shutting down
+16372: 07:54:15.293 - Service shut down complete
+14012: 08:03:10.448 - ---
+14012: 08:03:10.448 - Service: "Photon Socket Server" starting
+14012: 08:03:10.448 - Config File: E:\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\bin_Win64\PhotonServer.config
+14012: 08:03:10.450 - Will produce at most: 10 crash dumps
+14012: 08:03:10.450 - Service shutting down
+14012: 08:03:10.452 - Service shut down complete
+17376: 08:21:35.145 - ---
+17376: 08:21:35.145 - Service: "Photon Socket Server" starting
+17376: 08:21:35.146 - Config File: E:\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\bin_Win64\PhotonServer.config
+17376: 08:21:35.147 - Will produce at most: 10 crash dumps
+17376: 08:21:35.147 - Service shutting down
+17376: 08:21:35.149 - Service shut down complete

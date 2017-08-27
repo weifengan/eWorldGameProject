@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EWorldServer", "Server\EWorldServer\EWorldServer.csproj", "{4FD3A487-167A-40D2-A61B-DAC3B08E419D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Client\EWorldClient\Assembly-CSharp.csproj", "{D01E47B1-60ED-A9BB-7D72-44E2D264BFDD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{4FD3A487-167A-40D2-A61B-DAC3B08E419D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FD3A487-167A-40D2-A61B-DAC3B08E419D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FD3A487-167A-40D2-A61B-DAC3B08E419D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D01E47B1-60ED-A9BB-7D72-44E2D264BFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D01E47B1-60ED-A9BB-7D72-44E2D264BFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D01E47B1-60ED-A9BB-7D72-44E2D264BFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D01E47B1-60ED-A9BB-7D72-44E2D264BFDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

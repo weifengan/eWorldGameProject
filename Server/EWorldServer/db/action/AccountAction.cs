@@ -60,7 +60,6 @@ namespace EWorldServer.db.action
                     }
                 }
             }
-            return null;
         }
     }
 }

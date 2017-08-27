@@ -19,3 +19,4 @@ E:\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\li
 E:\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\libs\NHibernate.dll
 E:\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\libs\Photon.SocketServer.dll
 E:\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\libs\PhotonHostRuntimeInterfaces.dll
+E:\GitHub\eWorldGameProject\Server\EWorldServer\obj\Debug\EWorldServer.csprojResolveAssemblyReference.cache

@@ -8,8 +8,8 @@ namespace EWorldServer.net.c2s
 {
     class S2CMessage: Dictionary<byte,object>
     {
-        public int moudleCode;
-        public int operationCode;
+        public byte moudleCode;
+        public byte operationCode;
 
         public S2CMessage(byte moudleCode, byte operationCode) : base()
         {
@@ -18,7 +18,7 @@ namespace EWorldServer.net.c2s
             //添加操作码
             this.Add(80, operationCode);
         }
-
+ 
         public override string ToString()
         {
             string info = "";

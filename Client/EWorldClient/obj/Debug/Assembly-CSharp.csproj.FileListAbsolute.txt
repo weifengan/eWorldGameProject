@@ -1,0 +1,1 @@
+E:\GitHub\eWorldGameProject\Client\EWorldClient\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

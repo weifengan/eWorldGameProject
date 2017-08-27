@@ -33,9 +33,8 @@ namespace EWorldServer.net
 
             //注册消息
             Add((byte)Module.ServerList, (byte)ServerListOperation.FetchCurrentServer, new C2SFetchCurrentServer());
-           // Add(Module.ServerList, ServerListOperation.FetchAllServer, new C2SFetchServerList());
-
-           // Add(Module.Login, LoginOperation.UserLogin, new C2SUserLogin());
+            Add((byte)Module.ServerList, (byte)ServerListOperation.FetchAllServer, new C2SFetchAllServer());
+            Add((byte)Module.Login, (byte)LoginOperation.UserLogin, new C2SUserLogin());
             Global.Info("【OK】HandlerManager 初始化成功!");
         }
 

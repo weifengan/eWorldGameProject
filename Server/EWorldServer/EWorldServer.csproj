@@ -87,6 +87,7 @@
     <Compile Include="db\model\Account.cs" />
     <Compile Include="EWorldServerApp.cs" />
     <Compile Include="Global.cs" />
+    <Compile Include="net\c2s\C2SUserLogin.cs" />
     <Compile Include="net\c2s\S2CMessage.cs" />
     <Compile Include="net\c2s\C2SFetchAllServer.cs" />
     <Compile Include="net\c2s\C2SFetchCurrentServer.cs" />
