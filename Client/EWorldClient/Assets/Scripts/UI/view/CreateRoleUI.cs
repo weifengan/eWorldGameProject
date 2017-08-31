@@ -35,8 +35,11 @@ public class CreateRoleUI : BaseUI {
 
         models = new Transform[3];
         models[0]= this.Skin.transform.Find("Models/model_zhanshi");
+        models[0].gameObject.AddComponent<CreateRoleAniController>();
         models[1] = this.Skin.transform.Find("Models/model_jingling");
+        models[1].gameObject.AddComponent<CreateRoleAniController>();
         models[2] = this.Skin.transform.Find("Models/model_ancher");
+        models[2].gameObject.AddComponent<CreateRoleAniController>();
 
         mDescTitle = this.GetComponentByName<Text>("descTitle");
         mDescBody = this.GetComponentByName<Text>("descBody");
@@ -70,11 +73,13 @@ public class CreateRoleUI : BaseUI {
                 DisplayRole(RoleType.Ancher);
                 break;
         }
+       
     }
 
 
     void DisplayRole(RoleType type)
     {
+        this.Skin.transform.Find("Models").eulerAngles = new Vector3(0, -180, 0);
         for (int i = 0; i < tran_normal.Length; i++)
         {
             this.tran_normal[i].gameObject.SetActive(true);
@@ -104,8 +109,11 @@ public class CreateRoleUI : BaseUI {
     }
 
 
+   
 
 
 
-    
+
+
+
 }
