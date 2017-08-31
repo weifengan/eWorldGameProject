@@ -6,3 +6,10 @@ H:\CNWorkspace\github_weifengan\eWorldGameProject\EWorldGame_Release\Server\depl
 H:\CNWorkspace\github_weifengan\eWorldGameProject\Server\EWorldServer\obj\Debug\EWorldServer.dll
 H:\CNWorkspace\github_weifengan\eWorldGameProject\Server\EWorldServer\obj\Debug\EWorldServer.pdb
 H:\CNWorkspace\github_weifengan\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\libs\log4net.dll
+D:\NTS教学平台\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\libs\log4net.dll
+D:\NTS教学平台\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\EWorldServer.dll.config
+D:\NTS教学平台\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\EWorldServer.dll
+D:\NTS教学平台\GitHub\eWorldGameProject\EWorldGame_Release\Server\deploy\EWorldServer\bin\EWorldServer.pdb
+D:\NTS教学平台\GitHub\eWorldGameProject\Server\EWorldServer\obj\Debug\EWorldServer.csprojResolveAssemblyReference.cache
+D:\NTS教学平台\GitHub\eWorldGameProject\Server\EWorldServer\obj\Debug\EWorldServer.dll
+D:\NTS教学平台\GitHub\eWorldGameProject\Server\EWorldServer\obj\Debug\EWorldServer.pdb

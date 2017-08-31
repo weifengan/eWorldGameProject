@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\UI\UIManager.cs" />
      <Compile Include="Assets\Scripts\UI\view\AlertUI.cs" />
      <Compile Include="Assets\Scripts\UI\view\ConfirmUI.cs" />
+     <Compile Include="Assets\Scripts\UI\view\CreateRoleUI.cs" />
      <Compile Include="Assets\Scripts\UI\view\LoadingUI.cs" />
      <Compile Include="Assets\Scripts\UI\view\LoginUI.cs" />
      <Compile Include="Assets\Scripts\UI\view\SelectServerUI.cs" />
@@ -61,6 +62,7 @@
      <Compile Include="Assets\Scripts\net\Handler.cs" />
      <Compile Include="Assets\Scripts\net\HandlerManager.cs" />
      <Compile Include="Assets\Scripts\net\NetManager.cs" />
+     <None Include="Assets\Resources\Config\JobConfig.xml" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity561/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

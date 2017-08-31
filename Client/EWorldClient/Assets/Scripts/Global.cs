@@ -34,6 +34,7 @@ public class Global : MonoBehaviour {
 
     #region 变量
 
+    public string m_StartUIName = "LoadingUI";
     public Transform m_UIRoot;
 
     public ServerItemVo mCurrentServerInfo;
@@ -54,7 +55,7 @@ public class Global : MonoBehaviour {
        
         UIManager.GetInstance().Init();
         ResManager.GetInstance().Init();
-        UIManager.GetInstance().SwitchScene("LoadingUI","LoginUI");
+        UIManager.GetInstance().SwitchScene(m_StartUIName, "LoginUI");
 
         NetManager.GetInstance().Init();
 

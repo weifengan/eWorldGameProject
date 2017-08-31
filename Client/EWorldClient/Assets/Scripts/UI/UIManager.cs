@@ -62,7 +62,9 @@ public class UIManager : MonoBehaviour
         rtf.sizeDelta = new Vector2(Screen.width, Screen.height);
 
         BaseUI bi = scene.AddComponent(Type.GetType(name)) as BaseUI;
-        bi.args = args;
+        
+            bi.args = args;
+         
         if (current != null)
         {
             GameObject.Destroy(current);

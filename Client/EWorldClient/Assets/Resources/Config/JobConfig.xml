@@ -1,0 +1,39 @@
+<root>
+    <job>
+        <id>1</id>
+        <title>战士</title>
+        <desc>
+		<weapon><![CDATA[<color="yellow">武器：</color>巨剑]]></weapon>
+		<family><![CDATA[<color="yellow">种族：</color>人族]]></family>
+		<advance><![CDATA[<color="yellow">特性：</color>高防高伤]]></advance>
+		<skil><![CDATA[<color="yellow">技能：</color>擅长近战，利用高防御与敌人持续作战，造成持续大量伤害]]></skil>
+        </desc>
+    </job>
+    <job>
+        <id>2</id>
+        <title>魔法师</title>
+        <desc>
+            <weapon><![CDATA[<color="yellow">武器：</color>法杖]]></weapon>
+            <family><![CDATA[<color="yellow">种族：</color>精灵族]]></family>
+            <advance><![CDATA[<color="yellow">特性：</color>范围伤害]]></advance>
+            <skil><![CDATA[<color="yellow">技能：</color>擅长释放范围持续魔法，对敌人造成持续伤害]]></skil>
+        </desc>
+    </job>
+    <job>
+        <id>3</id>
+        <title>弓箭手</title>
+        <desc>
+            <weapon><![CDATA[<color="yellow">武器：</color>弓箭]]></weapon>
+            <family><![CDATA[<color="yellow">种族：</color>龙族]]></family>
+            <advance><![CDATA[<color="yellow">特性：</color>暴击伤害]]></advance>
+            <skil><![CDATA[<color="yellow">技能：</color>擅长远程狙击，可在短时间内爆发持续暴击伤害]]></skil>
+        </desc>
+    </job>
+</root>
+
+
+
+
+
+
+
