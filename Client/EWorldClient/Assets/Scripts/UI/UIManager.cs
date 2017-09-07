@@ -88,12 +88,13 @@ public class UIManager : MonoBehaviour
     {
         GameObject go = new GameObject(typeof(T).Name);
         RectTransform rtf = go.AddComponent<RectTransform>();
+    
         rtf.SetParent(m_UIRoot);
         rtf.anchoredPosition = Vector2.zero;
+        rtf.localPosition = Vector3.zero;
+        rtf.transform.localScale = Vector3.one;
+        
         T tmp = go.AddComponent<T>();
-
-        // RectTransform rtf = tmp.transform as RectTransform;
-        //rtf.transform.position = Vector3.one;
         return tmp;
     }
 
@@ -108,6 +109,7 @@ public class UIManager : MonoBehaviour
         rtf.anchorMax = Vector2.one;
         rtf.offsetMin = new Vector2(0, 0);
         rtf.offsetMax = new Vector2(0, 0);
+        rtf.localScale = Vector3.one;
         alert.SetData(content, title);
 
     }
@@ -123,6 +125,7 @@ public class UIManager : MonoBehaviour
         rtf.anchorMax = Vector2.one;
         rtf.offsetMin = new Vector2(0, 0);
         rtf.offsetMax = new Vector2(0, 0);
+        rtf.localScale = Vector3.one;
         confirm.SetData(content, title);
         confirm.onClosedHandler += handler;
 

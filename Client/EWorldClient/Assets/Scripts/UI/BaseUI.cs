@@ -126,6 +126,8 @@ public class BaseUI : MonoBehaviour
             rtf1.anchorMax = Vector2.one;
             rtf1.offsetMin = new Vector2(0, 0);
             rtf1.offsetMax = new Vector2(0, 0);
+            rtf1.localPosition = Vector3.zero;
+            rtf1.localScale = Vector3.one;
             //rtf1.sizeDelta = new Vector2(Screen.width, Screen.height);
 
         }
