@@ -5,7 +5,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Global : MonoBehaviour {
+public class Global : MonoBehaviour
+{
 
     #region 单例类实现
 
@@ -23,7 +24,8 @@ public class Global : MonoBehaviour {
             //调用初始化
             Init();
             DontDestroyOnLoad(this.gameObject);
-        } else if (_instance != this.gameObject)
+        }
+        else if (_instance != this.gameObject)
         {
             Destroy(this.gameObject);
             return;
@@ -52,14 +54,14 @@ public class Global : MonoBehaviour {
 
         //初始化管理器 
         HandlerManager.GetInstance().Init();
-       
+
         UIManager.GetInstance().Init();
+        SceneManager.GetInstance().Init();
         ResManager.GetInstance().Init();
-        UIManager.GetInstance().SwitchScene(m_StartUIName, "LoginUI");
-
+        
         NetManager.GetInstance().Init();
-
-
+        SceneManager.GetInstance().GotoUIScene("LoginUI");
+        //SceneManager.GetInstance().GotoScene("MainCity");
 
     }
 
@@ -76,4 +78,7 @@ public class Global : MonoBehaviour {
         }
         Debug.Log(info);
     }
+
+
+
 }

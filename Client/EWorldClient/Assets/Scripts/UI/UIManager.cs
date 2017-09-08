@@ -12,7 +12,7 @@ using System;
 
 public class UIManager : MonoBehaviour
 {
-    public UIManager()
+    private UIManager()
     {
 
     }
@@ -88,8 +88,9 @@ public class UIManager : MonoBehaviour
     {
         GameObject go = new GameObject(typeof(T).Name);
         RectTransform rtf = go.AddComponent<RectTransform>();
-    
+        
         rtf.SetParent(m_UIRoot);
+        rtf.sizeDelta = new Vector2(Screen.width, Screen.height);
         rtf.anchoredPosition = Vector2.zero;
         rtf.localPosition = Vector3.zero;
         rtf.transform.localScale = Vector3.one;

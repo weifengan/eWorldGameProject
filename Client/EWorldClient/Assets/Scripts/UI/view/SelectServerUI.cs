@@ -4,6 +4,7 @@ using Pathfinding.Serialization.JsonFx;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SelectServerUI : BaseUI {
@@ -49,9 +50,12 @@ public class SelectServerUI : BaseUI {
         switch (go.name)
         {
             case "btnEnterGame":
+                SceneManager.GetInstance().GotoRealScene("MainCity",delegate() {
 
-                //UIManager.GetInstance().SwitchScene("LoginUI");
-                  
+                    UIManager.GetInstance().SwitchScene("MainCityUI");
+
+
+                });
                 break;
             case "btnChange":
                 if (mlist == null)
