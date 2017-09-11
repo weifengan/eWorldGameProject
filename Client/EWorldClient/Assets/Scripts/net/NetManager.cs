@@ -41,7 +41,7 @@ public class NetManager :MonoBehaviour,IPhotonPeerListener{
         }
         ///创建客户端监听对象
         peer = new PhotonPeer(this, ConnectionProtocol.Tcp);
-        peer.Connect("127.0.0.1:4531", "EWorldGame");
+        peer.Connect("111.200.241.253:4531", "EWorldGame");
         Global.Info("初始化NetManager");
     }
 
